@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IMC Exato</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">IMC Exato</string>
+    <string name="nav_header_subtitle">cristovan1986@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_cadastrar">Cadastrar</string>
+
+    <string name="menu_historico">Historico</string>
+    <string name="menu_insere_imc">Inserir IMC</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="cadastre_se_titulo">CADASTRE-SE</string>
+    <string name="cadastre_se_nome">Digite seu nome</string>
+    <string name="cadastre_se_rb_masc">Masculino</string>
+    <string name="cadastre_se_rb_fem">Feminino</string>
+    <string name="cadastre_se_sexo">Sexo</string>
+    <string name="cadastre_se_nascimento">Nascimento</string>
+    <string name="cadastre_se_cadastrar">Cadastrar</string>
+
+    <string name="historico_second">Historico Second</string>
+</resources>

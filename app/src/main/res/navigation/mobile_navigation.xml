@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_historico">
+
+    <fragment
+        android:id="@+id/nav_historico"
+        android:name="com.cristovancamilo.imcexato.ui.home.HistoricoFragment"
+        android:label="@string/menu_historico"
+        tools:layout="@layout/fragment_historico">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_historico_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_historico_second"
+        android:name="com.cristovancamilo.imcexato.ui.home.HistoricoFragment"
+        android:label="@string/historico_second"
+        tools:layout="@layout/fragment_historico">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_historico" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_insere_imc"
+        android:name="com.cristovancamilo.imcexato.ui.insereIMC.InsereIMCFragment"
+        android:label="@string/menu_insere_imc"
+        tools:layout="@layout/fragment_insere_imc" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.cristovancamilo.imcexato.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
